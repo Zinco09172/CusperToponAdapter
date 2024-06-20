@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8E9C182C23D74D00DF0B33 /* CusperToponAdapter.docc in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C172C23D74D00DF0B33 /* CusperToponAdapter.docc */; };
+		CD8E9C192C23D74D00DF0B33 /* CusperToponAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C162C23D74D00DF0B33 /* CusperToponAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8E9C2F2C23D77300DF0B33 /* ATCPBiddingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C1F2C23D77200DF0B33 /* ATCPBiddingManager.h */; };
+		CD8E9C302C23D77300DF0B33 /* CPRewardVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C202C23D77200DF0B33 /* CPRewardVideoCustomEvent.h */; };
+		CD8E9C312C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C212C23D77200DF0B33 /* CPInterstitialVideoCustomEvent.m */; };
+		CD8E9C322C23D77300DF0B33 /* CusperRewardedVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C222C23D77200DF0B33 /* CusperRewardedVideoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8E9C332C23D77300DF0B33 /* CusperBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C232C23D77300DF0B33 /* CusperBannerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8E9C342C23D77300DF0B33 /* CPBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C242C23D77300DF0B33 /* CPBannerCustomEvent.m */; };
+		CD8E9C352C23D77300DF0B33 /* ATCPBiddingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C252C23D77300DF0B33 /* ATCPBiddingManager.m */; };
+		CD8E9C362C23D77300DF0B33 /* CusperRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C262C23D77300DF0B33 /* CusperRewardedVideoAdapter.m */; };
+		CD8E9C372C23D77300DF0B33 /* ATCPBiddingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C272C23D77300DF0B33 /* ATCPBiddingRequest.h */; };
+		CD8E9C382C23D77300DF0B33 /* CPBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C282C23D77300DF0B33 /* CPBannerCustomEvent.h */; };
+		CD8E9C392C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C292C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.h */; };
+		CD8E9C3A2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8E9C2A2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8E9C3B2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C2B2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.m */; };
+		CD8E9C3C2C23D77300DF0B33 /* ATCPBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C2C2C23D77300DF0B33 /* ATCPBiddingRequest.m */; };
+		CD8E9C3D2C23D77300DF0B33 /* CPRewardVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C2D2C23D77300DF0B33 /* CPRewardVideoCustomEvent.m */; };
+		CD8E9C3E2C23D77300DF0B33 /* CusperBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9C2E2C23D77300DF0B33 /* CusperBannerAdapter.m */; };
+		CD8E9C402C23D9EC00DF0B33 /* AnyThinkBanner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C3F2C23D9EC00DF0B33 /* AnyThinkBanner.xcframework */; };
+		CD8E9C422C23D9EC00DF0B33 /* AnyThinkInterstitial.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C412C23D9EC00DF0B33 /* AnyThinkInterstitial.xcframework */; };
+		CD8E9C442C23D9EC00DF0B33 /* AnyThinkMediaVideo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C432C23D9EC00DF0B33 /* AnyThinkMediaVideo.xcframework */; };
+		CD8E9C462C23D9EC00DF0B33 /* AnyThinkNative.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C452C23D9EC00DF0B33 /* AnyThinkNative.xcframework */; };
+		CD8E9C482C23D9EC00DF0B33 /* AnyThinkRewardedVideo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C472C23D9EC00DF0B33 /* AnyThinkRewardedVideo.xcframework */; };
+		CD8E9C4A2C23D9EC00DF0B33 /* AnyThinkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C492C23D9EC00DF0B33 /* AnyThinkSDK.xcframework */; };
+		CD8E9C4C2C23D9EC00DF0B33 /* AnyThinkSplash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C4B2C23D9EC00DF0B33 /* AnyThinkSplash.xcframework */; };
+		CD8E9C4E2C23D9EC00DF0B33 /* Cusper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9C4D2C23D9EC00DF0B33 /* Cusper.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5479210E160BF8D36B1B3291 /* Pods_CusperToponAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CusperToponAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F9D4089759A9A0F9B6465 /* Pods-CusperToponAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CusperToponAdapter.release.xcconfig"; path = "Target Support Files/Pods-CusperToponAdapter/Pods-CusperToponAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		CD8E9C132C23D74D00DF0B33 /* CusperToponAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CusperToponAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8E9C162C23D74D00DF0B33 /* CusperToponAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CusperToponAdapter.h; sourceTree = "<group>"; };
+		CD8E9C172C23D74D00DF0B33 /* CusperToponAdapter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CusperToponAdapter.docc; sourceTree = "<group>"; };
+		CD8E9C1F2C23D77200DF0B33 /* ATCPBiddingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCPBiddingManager.h; sourceTree = "<group>"; };
+		CD8E9C202C23D77200DF0B33 /* CPRewardVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPRewardVideoCustomEvent.h; sourceTree = "<group>"; };
+		CD8E9C212C23D77200DF0B33 /* CPInterstitialVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPInterstitialVideoCustomEvent.m; sourceTree = "<group>"; };
+		CD8E9C222C23D77200DF0B33 /* CusperRewardedVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusperRewardedVideoAdapter.h; sourceTree = "<group>"; };
+		CD8E9C232C23D77300DF0B33 /* CusperBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusperBannerAdapter.h; sourceTree = "<group>"; };
+		CD8E9C242C23D77300DF0B33 /* CPBannerCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBannerCustomEvent.m; sourceTree = "<group>"; };
+		CD8E9C252C23D77300DF0B33 /* ATCPBiddingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCPBiddingManager.m; sourceTree = "<group>"; };
+		CD8E9C262C23D77300DF0B33 /* CusperRewardedVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusperRewardedVideoAdapter.m; sourceTree = "<group>"; };
+		CD8E9C272C23D77300DF0B33 /* ATCPBiddingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCPBiddingRequest.h; sourceTree = "<group>"; };
+		CD8E9C282C23D77300DF0B33 /* CPBannerCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBannerCustomEvent.h; sourceTree = "<group>"; };
+		CD8E9C292C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPInterstitialVideoCustomEvent.h; sourceTree = "<group>"; };
+		CD8E9C2A2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusperInterstitialVideoAdapter.h; sourceTree = "<group>"; };
+		CD8E9C2B2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusperInterstitialVideoAdapter.m; sourceTree = "<group>"; };
+		CD8E9C2C2C23D77300DF0B33 /* ATCPBiddingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCPBiddingRequest.m; sourceTree = "<group>"; };
+		CD8E9C2D2C23D77300DF0B33 /* CPRewardVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRewardVideoCustomEvent.m; sourceTree = "<group>"; };
+		CD8E9C2E2C23D77300DF0B33 /* CusperBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusperBannerAdapter.m; sourceTree = "<group>"; };
+		CD8E9C3F2C23D9EC00DF0B33 /* AnyThinkBanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkBanner.xcframework; path = Pods/TPNiOS/core/AnyThinkBanner.xcframework; sourceTree = "<group>"; };
+		CD8E9C412C23D9EC00DF0B33 /* AnyThinkInterstitial.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkInterstitial.xcframework; path = Pods/TPNiOS/core/AnyThinkInterstitial.xcframework; sourceTree = "<group>"; };
+		CD8E9C432C23D9EC00DF0B33 /* AnyThinkMediaVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkMediaVideo.xcframework; path = Pods/TPNiOS/core/AnyThinkMediaVideo.xcframework; sourceTree = "<group>"; };
+		CD8E9C452C23D9EC00DF0B33 /* AnyThinkNative.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkNative.xcframework; path = Pods/TPNiOS/core/AnyThinkNative.xcframework; sourceTree = "<group>"; };
+		CD8E9C472C23D9EC00DF0B33 /* AnyThinkRewardedVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkRewardedVideo.xcframework; path = Pods/TPNiOS/core/AnyThinkRewardedVideo.xcframework; sourceTree = "<group>"; };
+		CD8E9C492C23D9EC00DF0B33 /* AnyThinkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkSDK.xcframework; path = Pods/TPNiOS/core/AnyThinkSDK.xcframework; sourceTree = "<group>"; };
+		CD8E9C4B2C23D9EC00DF0B33 /* AnyThinkSplash.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyThinkSplash.xcframework; path = Pods/TPNiOS/core/AnyThinkSplash.xcframework; sourceTree = "<group>"; };
+		CD8E9C4D2C23D9EC00DF0B33 /* Cusper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Cusper.xcframework; path = Pods/CusperSDK/Cusper.xcframework; sourceTree = "<group>"; };
+		CD8E9C4F2C23D9EC00DF0B33 /* Pods_CusperToponAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CusperToponAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD875989BD68FFB3750A239 /* Pods-CusperToponAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CusperToponAdapter.debug.xcconfig"; path = "Target Support Files/Pods-CusperToponAdapter/Pods-CusperToponAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8E9C102C23D74D00DF0B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9C482C23D9EC00DF0B33 /* AnyThinkRewardedVideo.xcframework in Frameworks */,
+				CD8E9C4C2C23D9EC00DF0B33 /* AnyThinkSplash.xcframework in Frameworks */,
+				CD8E9C402C23D9EC00DF0B33 /* AnyThinkBanner.xcframework in Frameworks */,
+				CD8E9C4A2C23D9EC00DF0B33 /* AnyThinkSDK.xcframework in Frameworks */,
+				CD8E9C442C23D9EC00DF0B33 /* AnyThinkMediaVideo.xcframework in Frameworks */,
+				CD8E9C462C23D9EC00DF0B33 /* AnyThinkNative.xcframework in Frameworks */,
+				CD8E9C422C23D9EC00DF0B33 /* AnyThinkInterstitial.xcframework in Frameworks */,
+				CD8E9C4E2C23D9EC00DF0B33 /* Cusper.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822E1C12BC149082496D285A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCD875989BD68FFB3750A239 /* Pods-CusperToponAdapter.debug.xcconfig */,
+				B31F9D4089759A9A0F9B6465 /* Pods-CusperToponAdapter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98A1B3BC7435761CAD7BD025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9C3F2C23D9EC00DF0B33 /* AnyThinkBanner.xcframework */,
+				CD8E9C412C23D9EC00DF0B33 /* AnyThinkInterstitial.xcframework */,
+				CD8E9C432C23D9EC00DF0B33 /* AnyThinkMediaVideo.xcframework */,
+				CD8E9C452C23D9EC00DF0B33 /* AnyThinkNative.xcframework */,
+				CD8E9C472C23D9EC00DF0B33 /* AnyThinkRewardedVideo.xcframework */,
+				CD8E9C492C23D9EC00DF0B33 /* AnyThinkSDK.xcframework */,
+				CD8E9C4B2C23D9EC00DF0B33 /* AnyThinkSplash.xcframework */,
+				CD8E9C4D2C23D9EC00DF0B33 /* Cusper.xcframework */,
+				CD8E9C4F2C23D9EC00DF0B33 /* Pods_CusperToponAdapter.framework */,
+				5479210E160BF8D36B1B3291 /* Pods_CusperToponAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8E9C092C23D74D00DF0B33 = {
+			isa = PBXGroup;
+			children = (
+				CD8E9C152C23D74D00DF0B33 /* CusperToponAdapter */,
+				CD8E9C142C23D74D00DF0B33 /* Products */,
+				822E1C12BC149082496D285A /* Pods */,
+				98A1B3BC7435761CAD7BD025 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8E9C142C23D74D00DF0B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9C132C23D74D00DF0B33 /* CusperToponAdapter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8E9C152C23D74D00DF0B33 /* CusperToponAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9C1F2C23D77200DF0B33 /* ATCPBiddingManager.h */,
+				CD8E9C252C23D77300DF0B33 /* ATCPBiddingManager.m */,
+				CD8E9C272C23D77300DF0B33 /* ATCPBiddingRequest.h */,
+				CD8E9C2C2C23D77300DF0B33 /* ATCPBiddingRequest.m */,
+				CD8E9C282C23D77300DF0B33 /* CPBannerCustomEvent.h */,
+				CD8E9C242C23D77300DF0B33 /* CPBannerCustomEvent.m */,
+				CD8E9C292C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.h */,
+				CD8E9C212C23D77200DF0B33 /* CPInterstitialVideoCustomEvent.m */,
+				CD8E9C202C23D77200DF0B33 /* CPRewardVideoCustomEvent.h */,
+				CD8E9C2D2C23D77300DF0B33 /* CPRewardVideoCustomEvent.m */,
+				CD8E9C232C23D77300DF0B33 /* CusperBannerAdapter.h */,
+				CD8E9C2E2C23D77300DF0B33 /* CusperBannerAdapter.m */,
+				CD8E9C2A2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.h */,
+				CD8E9C2B2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.m */,
+				CD8E9C222C23D77200DF0B33 /* CusperRewardedVideoAdapter.h */,
+				CD8E9C262C23D77300DF0B33 /* CusperRewardedVideoAdapter.m */,
+				CD8E9C162C23D74D00DF0B33 /* CusperToponAdapter.h */,
+				CD8E9C172C23D74D00DF0B33 /* CusperToponAdapter.docc */,
+			);
+			path = CusperToponAdapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD8E9C0E2C23D74D00DF0B33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9C332C23D77300DF0B33 /* CusperBannerAdapter.h in Headers */,
+				CD8E9C322C23D77300DF0B33 /* CusperRewardedVideoAdapter.h in Headers */,
+				CD8E9C3A2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.h in Headers */,
+				CD8E9C2F2C23D77300DF0B33 /* ATCPBiddingManager.h in Headers */,
+				CD8E9C382C23D77300DF0B33 /* CPBannerCustomEvent.h in Headers */,
+				CD8E9C392C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.h in Headers */,
+				CD8E9C302C23D77300DF0B33 /* CPRewardVideoCustomEvent.h in Headers */,
+				CD8E9C372C23D77300DF0B33 /* ATCPBiddingRequest.h in Headers */,
+				CD8E9C192C23D74D00DF0B33 /* CusperToponAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD8E9C122C23D74D00DF0B33 /* CusperToponAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8E9C1C2C23D74D00DF0B33 /* Build configuration list for PBXNativeTarget "CusperToponAdapter" */;
+			buildPhases = (
+				6ED5D91275E8B35761891182 /* [CP] Check Pods Manifest.lock */,
+				CD8E9C0E2C23D74D00DF0B33 /* Headers */,
+				CD8E9C0F2C23D74D00DF0B33 /* Sources */,
+				CD8E9C102C23D74D00DF0B33 /* Frameworks */,
+				CD8E9C112C23D74D00DF0B33 /* Resources */,
+				2D0E875F92011AC08B5B4116 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CusperToponAdapter;
+			productName = CusperToponAdapter;
+			productReference = CD8E9C132C23D74D00DF0B33 /* CusperToponAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8E9C0A2C23D74D00DF0B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CD8E9C122C23D74D00DF0B33 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CD8E9C0D2C23D74D00DF0B33 /* Build configuration list for PBXProject "CusperToponAdapter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8E9C092C23D74D00DF0B33;
+			productRefGroup = CD8E9C142C23D74D00DF0B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8E9C122C23D74D00DF0B33 /* CusperToponAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8E9C112C23D74D00DF0B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D0E875F92011AC08B5B4116 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CusperToponAdapter/Pods-CusperToponAdapter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CusperToponAdapter/Pods-CusperToponAdapter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CusperToponAdapter/Pods-CusperToponAdapter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED5D91275E8B35761891182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CusperToponAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8E9C0F2C23D74D00DF0B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9C312C23D77300DF0B33 /* CPInterstitialVideoCustomEvent.m in Sources */,
+				CD8E9C3D2C23D77300DF0B33 /* CPRewardVideoCustomEvent.m in Sources */,
+				CD8E9C182C23D74D00DF0B33 /* CusperToponAdapter.docc in Sources */,
+				CD8E9C3B2C23D77300DF0B33 /* CusperInterstitialVideoAdapter.m in Sources */,
+				CD8E9C342C23D77300DF0B33 /* CPBannerCustomEvent.m in Sources */,
+				CD8E9C362C23D77300DF0B33 /* CusperRewardedVideoAdapter.m in Sources */,
+				CD8E9C352C23D77300DF0B33 /* ATCPBiddingManager.m in Sources */,
+				CD8E9C3E2C23D77300DF0B33 /* CusperBannerAdapter.m in Sources */,
+				CD8E9C3C2C23D77300DF0B33 /* ATCPBiddingRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD8E9C1A2C23D74D00DF0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8E9C1B2C23D74D00DF0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD8E9C1D2C23D74D00DF0B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD875989BD68FFB3750A239 /* Pods-CusperToponAdapter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MG37537HVB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cusper.adapter.CusperToponAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8E9C1E2C23D74D00DF0B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F9D4089759A9A0F9B6465 /* Pods-CusperToponAdapter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MG37537HVB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cusper.adapter.CusperToponAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8E9C0D2C23D74D00DF0B33 /* Build configuration list for PBXProject "CusperToponAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E9C1A2C23D74D00DF0B33 /* Debug */,
+				CD8E9C1B2C23D74D00DF0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8E9C1C2C23D74D00DF0B33 /* Build configuration list for PBXNativeTarget "CusperToponAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E9C1D2C23D74D00DF0B33 /* Debug */,
+				CD8E9C1E2C23D74D00DF0B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8E9C0A2C23D74D00DF0B33 /* Project object */;
+}

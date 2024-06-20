@@ -1,0 +1,22 @@
+PODS:
+  - CusperSDK (1.1.5)
+  - TPNiOS (6.3.53):
+    - TPNiOS/TPNSDK (= 6.3.53)
+  - TPNiOS/TPNSDK (6.3.53)
+
+DEPENDENCIES:
+  - CusperSDK (= 1.1.5)
+  - TPNiOS (= 6.3.53)
+
+SPEC REPOS:
+  trunk:
+    - CusperSDK
+    - TPNiOS
+
+SPEC CHECKSUMS:
+  CusperSDK: 27e1da57ce151e2968dc47bca5790759e739281d
+  TPNiOS: 81fde4ce275889b5ba90b0f53c8c4453cb29a291
+
+PODFILE CHECKSUM: b2155a5a2a77a45c49fad857b743098a285bfdc2
+
+COCOAPODS: 1.15.2
